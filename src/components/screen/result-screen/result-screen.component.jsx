@@ -2,9 +2,9 @@ import React from 'react';
 
 import './result-screen.styles.scss';
 
-const ResultScreen = () => (
+const ResultScreen = (props) => (
   <div className="result-screen">
-    3124
+    {props.children}
   </div>
 );
 

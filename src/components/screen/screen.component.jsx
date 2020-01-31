@@ -5,12 +5,17 @@ import ComputationScreen from './computation-screen/computation-screen.component
 
 import './screen.styles.scss';
 
-const Screen = () => (
-    <section className="screen">
-      <ResultScreen />
-      <ComputationScreen />
+const Screen = (props) => {
+
+  const { equation, result } = props;
+
+   return( 
+   <section className="screen">
+    <ResultScreen>{result}</ResultScreen>
+    <ComputationScreen>{equation}</ComputationScreen>
     </section>
-  );
+    )
+};
 
 
   export default Screen;

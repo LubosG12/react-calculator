@@ -2,9 +2,9 @@ import React from 'react';
 
 import './computation-screen.styles.scss';
 
-const ComputationScreen = () => (
+const ComputationScreen = (props) => (
   <div className="computation-screen">
-    3000 + 100 + 20 + 4
+   {props.children}
   </div>
 );
 
