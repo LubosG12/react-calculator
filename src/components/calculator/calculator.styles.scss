@@ -3,4 +3,7 @@
     width: 25%;
     box-shadow: 0 2rem 4rem var(--shadow);
     background-color: var(--color-light-black);
+    -webkit-box-shadow: 10px 7px 55px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 7px 55px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 7px 55px -6px rgba(0,0,0,0.75);
   }
