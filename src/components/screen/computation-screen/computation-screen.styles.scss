@@ -1,0 +1,9 @@
+.computation-screen {
+    height: 6vh;
+    font-size: 2.5rem;
+    
+    /* To display the value at the bottom-right of the container */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
